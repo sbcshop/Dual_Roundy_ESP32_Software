@@ -76,7 +76,8 @@ When you connect both Main and common board together following pins of ESP32 S3 
    | IO11 | LCD1_DIN | MOSI (Master OUT Slave IN) pin of SPI interface|
    | IO9  | LCD1_CS | Chip Select pin of SPI interface|
    | IO13 | LCD1_DC| Data/Command (MISO) pin of SPI interface|
-   | IO45 | LCD_BL | Backlight of display|
+   | IO14 | LCD_RST | Reset of display|
+   | IO10 | LCD_BL | Backlight of display|
 	
    | ESP32 | Display | Function |
    |---|---|---|
@@ -84,7 +85,8 @@ When you connect both Main and common board together following pins of ESP32 S3 
    | IO6  | LCD2_DIN | MOSI (Master OUT Slave IN) pin of SPI interface|
    | IO21 | LCD2_CS | Chip Select pin of SPI interface|
    | IO7  | LCD2_DC| Data/Command (MISO) pin of SPI interface|
-   | IO45 | LCD_BL | Backlight of display|
+   | IO18 | LCD_RST | Reset of display|
+   | IO48 | LCD_BL | Backlight of display|
 
 
  - **__SDcard Interface__**
@@ -102,29 +104,29 @@ When you connect both Main and common board together following pins of ESP32 S3 
    | IO19 | D- | USB Communication pin |
    | IO20 | D+ | USB Communication pin |
 -->	 
+
+- **_QMI8658C IMU Interfacing_**
+  | RP2040 | IMU | Function |
+  |---|---|---|
+  |IO39 | I2C_SCL | I2C Serial Clock |
+  |IO38 | I2C_SDA | I2C Data pin |
   
-- **_BME280 & DS3231 RTC I2C Interfacing_**
-  | ESP32 | Hardware | Hardware | Function |
-  |---|---|---|---|
-  |IO39 | BME280_SCL | RTC_SCL | I2C Serial Clock |
-  |IO38 | BME280_SDA  | RTC_SDA | I2C Data pin |
-  
-- **_Buttons & Buzzer Interfacing_**
+- **_Buttons and RGB LED Interfacing_**
   | ESP32 | Hardware | Function |
   |---|---|---|
   |IO0 | BOOT |Boot button |
   |IO4 | BT1 | Programmable Button |
   |IO5 | BT2 | Programmable Button |
-  |IO40 | Buzzer | Buzzer control pin |
+  |IO17 | DIN | Data In of WS2812 RGBLed Array |
 	
 - **_GPIOs Breakout_**
   
-  | ESP32 | Type* | Multi-Function (_**Bold-Italic**_ default Function) |
+  | ESP32 | Type* | Multi-Function (_**Bold-Italic**_) default Function) |
   |---|---|---|
   |3V3  | P     | Positive Supply, 3.3V |
-  |IO3  | I/O/T | RTC_GPIO3, _**GPIO3**_, TOUCH3, ADC1_CH2  |
-  |IO46 | I/O/T | _**GPIO46**_ |  
-  |GND  | P     | Supply Ground |
+  |IO43  | I/O/T | U0TXD, **_GPIO43_**, CLK_OUT1  |
+  |IO44  | I/O/T | U0RXD,_**GPIO44**_, CLK_OUT2 |  
+  |GND   | P     | Supply Ground |
   
   *I-INPUT, O-OUTPUT, P-POWER & T-HIGH IMPEDENCE
 
