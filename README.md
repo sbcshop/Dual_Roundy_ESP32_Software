@@ -106,7 +106,7 @@ When you connect both Main and common board together following pins of ESP32 S3 
 -->	 
 
 - **_QMI8658C IMU Interfacing_**
-  | RP2040 | IMU | Function |
+  | ESP32 | IMU | Function |
   |---|---|---|
   |IO39 | I2C_SCL | I2C Serial Clock |
   |IO38 | I2C_SDA | I2C Data pin |
@@ -157,22 +157,21 @@ When you connect both Main and common board together following pins of ESP32 S3 
      
 
 ### 2. Installing Libraries
-   - Download [library zip file]() provided here in github.
+   - Download [library zip file](https://github.com/sbcshop/Dual_Roundy_ESP32_Software/blob/main/libraries.zip) provided here in github.
    - Extract and copy files inside Document > Arduino > Libraries folder. Make sure to restart Arduino IDE whenever you update or add any libraries.
 
      <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/library_files_path.png" />
      
 ### 3. Testing First Code
-   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes]() in github which you can download and try.
+   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/Dual_Roundy_ESP32_Software/tree/main/examples) in github which you can download and try.
    - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on ESP32 of Roundy.
      <img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/upload_process.gif">
 
 ### Example Codes
-   Try reference demo codes to test onboard components and make sure to [setup libraries]() before to avoid compilation error of any demo codes,
-   - [Dual Display Demo]() : Visualize onboard display working with sample code
-   - [6-axis IMU Sensor]() : To read accelerometer and gyroscope value
-   - [Buttons Demo]() : Testing onboard user programmable buttons
-   - [More...]()
+   Try reference demo codes to test onboard components and make sure to [setup libraries](https://github.com/sbcshop/Dual_Roundy_ESP32_Software/tree/main#2-installing-libraries) before to avoid compilation error of any demo codes,
+   - [Dual Display Demo](https://github.com/sbcshop/Dual_Roundy_ESP32_Software/tree/main/examples/Demo_DualRoundDisplay) : Visualize onboard display working with sample code
+   - [6-axis IMU Sensor](https://github.com/sbcshop/Dual_Roundy_ESP32_Software/tree/main/examples/Demo_IMU) : To read accelerometer and gyroscope value
+   - [Buttons Demo](https://github.com/sbcshop/Dual_Roundy_ESP32_Software/tree/main/examples/Demo_Buttons) : Testing onboard user programmable buttons
 
    Using this sample code as a guide, you can modify, build, and share codes!!
 
