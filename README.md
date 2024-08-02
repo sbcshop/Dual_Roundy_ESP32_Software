@@ -196,13 +196,13 @@ When you connect both Main and common board together following pins of ESP32 S3 
 
     ![2x2 Display with ESP32 S3 (Square)](https://shop.sb-components.co.uk/cdn/shop/files/mainsquareesp32.png?v=1720527077&width=300)
     
-  * [Touchsy - 3.2" Touch LCD Display Based on Pico W](https://shop.sb-components.co.uk/products/touchsy-3-2-touch-lcd-display-based-on-pico-w?variant=40828148744275)
+  * [Touchsy - 3.2" Touch LCD Display Based on ESP32](https://shop.sb-components.co.uk/products/touchsy-3-2-touch-lcd-display-based-on-esp32-mcu?variant=40828141174867)
 
-    ![Touchsy - 3.2" Touch LCD Display Based on Pico W](https://shop.sb-components.co.uk/cdn/shop/files/touchsypicowresitive.jpg?v=1686903806&width=300)
+    ![Touchsy - 3.2" Touch LCD Display Based on ESP32](https://shop.sb-components.co.uk/cdn/shop/files/esp.jpg?v=1686900424&width=300)
   
-  * [Rotary Encoder - LED Array & Touch LCD Powered by Pico W](https://shop.sb-components.co.uk/products/rotary-encoder-led-array-touch-lcd-for-esp32-pico-hat?variant=41002601676883)
+  * [Rotary Encoder - LED Array & Touch LCD Powered by ESP32](https://shop.sb-components.co.uk/products/rotary-encoder-led-array-touch-lcd-for-esp32-pico-hat?variant=41002601709651)
 
-    ![Rotary Encoder - LED Array & Touch LCD Powered by Pico W](https://shop.sb-components.co.uk/cdn/shop/files/RotaryEncoder-LEDArray_TouchLCDforESP32PicoHAT_7.png?v=1710413189&width=300)
+    ![Rotary Encoder - LED Array & Touch LCD Powered by ESP32](https://shop.sb-components.co.uk/cdn/shop/files/RotaryEncoder-LEDArray_TouchLCDforESP32PicoHAT_6.png?v=1710413189&width=300)
 
 
 ## Product License
