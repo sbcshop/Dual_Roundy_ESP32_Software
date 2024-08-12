@@ -62,7 +62,7 @@ This github provides getting started guide for Dual Roundy ESP32.
 
 Hold Main and common board as shown below and then connect both using provided Male and female header
 
-<img src= ""  width="" height="" >
+<img src= "https://github.com/sbcshop/Dual_Roundy_ESP32_Software/blob/main/images/dual_roundy_ESP32_combine.gif"  width="828" height="292" >
 
 ### Interfacing Details
 
